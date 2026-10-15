@@ -1,6 +1,7 @@
 # 密钥和本地配置
 .env
 .env.*
+!.env.example
 *.key
 *.pem
 
@@ -17,7 +18,7 @@ node_modules/
 .idea/
 .vscode/
 
-# 编译结果
+# 构建结果
 build/
 dist/
 
@@ -25,4 +26,5 @@ dist/
 Thumbs.db
 .DS_Store
 
-_scratch/
+# 本地临时文件
+/_scratch/
