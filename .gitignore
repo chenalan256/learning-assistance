@@ -1,30 +1,15 @@
-# 密钥和本地配置
+# 本地环境配置（示例配置可以提交）
 .env
 .env.*
 !.env.example
-*.key
-*.pem
 
-# Python
-.venv/
-venv/
-__pycache__/
-*.pyc
-
-# Node.js
-node_modules/
-
-# IDE
+# 本地编辑器配置
 .idea/
 .vscode/
 
-# 构建结果
-build/
-dist/
-
-# 系统文件
+# 系统生成文件
 Thumbs.db
 .DS_Store
 
-# 本地临时文件
+# 项目根目录下的本地临时文件
 /_scratch/
